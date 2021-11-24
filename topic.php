@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap4.css">
 
     <!-- Page Icon -->
-    <link rel="icon" type="image/gif/png" href="img/teacher-at-the-blackboard.png">
+    <link rel="icon" type="image/gif/png" href="img/icon/teacher-at-the-blackboard.png">
 
     <!-- Judul Halaman -->
     <title>Topic Page</title>
@@ -49,72 +49,86 @@
         </nav>
     </header>
 
+    <!-- Sub Header -->
+    <div class="horrid">
+        <div class="subhorrid col-md-8 offset-md-2">
+            <ul class="list-group list-group-horizontal">
+                <li class="horriditem"><h6>Category A</h6></li>
+                <li class="horriditem"><h6>Category B</h6></li>
+                <li class="horriditem"><h6>Category C</h6></li>
+                <li class="horriditem"><h6>Category D</h6></li>
+                <li class="horriditem"><h6>Category E</h6></li>
+                <li class="horriditem"><h6>Category F</h6></li>
+                <li class="horriditem"><h6>Category G</h6></li>
+            </ul>
+        </div>
+    </div>
+
     <!-- Content -->
     <div id="content-wrapper" class="d-flex flex-column margin-10">
         <div id="content">  
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-7">
-
+                    <div class="col-xl-12 col-lg-7">
                         <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <ul class="list-group list-group-horizontal">
-                                    <li class="list-group-item">Cras justo odio</li>
-                                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                    <li class="list-group-item">Morbi leo risus</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-                            </div>
                             <div class="card-body">
-                                <div class="chart-area">
-                                    <canvas id="myAreaChart"></canvas>
-                                </div>
-                                <hr>
-                                Styling for the area chart can be found in the
-                                <code>/js/demo/chart-area-demo.js</code> file.
-                            </div>
-                        </div>
-
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-                            </div>
-                            <div class="card-body">
-                                <div class="chart-bar">
-                                    <canvas id="myBarChart"></canvas>
-                                </div>
-                                <hr>
-                                Styling for the bar chart can be found in the
-                                <code>/js/demo/chart-bar-demo.js</code> file.
+                                <img id="topic-img" src="img/larges/larges (5).png" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <div class="container-fluid align-center">
-                    <section>
-                        <h3>Ikuti Berita Promosi & Program Beasiswa</h3> <a href=""></a>
-                    </section>
+                <div class="subhorrid col-md-8 offset-md-2">
+                    <div class="container-fluid align-center">
+                        <section>
+                            <h3>Ikuti Berita Promosi & Program Beasiswa <a href="#">Subscribe</a></h3>
+                        </section>
+                    </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-8 col-lg-7">
+                    <div class="col-xl-12 col-lg-7">
                         <div class="card shadow mb-4">
                             <div class="card-body">
                                 <h1>Mari Mulai Belajar</h1>
-
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <img class="card-img-top" src="..." alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <img class="card-img-top" src="..." alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <img class="card-img-top" src="..." alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <img class="card-img-top" src="..." alt="Card image cap">
+                                            <div class="card-body">
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
+                        <!-- Favicon Distribution -->
                         <div class="card shadow mb-4">
                             <div class="card-body">
                                 <div>Icons made by 

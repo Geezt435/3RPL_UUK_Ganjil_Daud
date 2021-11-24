@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap4.css">
 
     <!-- Page Icon -->
-    <link rel="icon" type="image/gif/png" href="img/pencil.png">
+    <link rel="icon" type="image/gif/png" href="img/icon/pencil.png">
 
     <!-- Judul Halaman -->
     <title>Topic Page</title>
