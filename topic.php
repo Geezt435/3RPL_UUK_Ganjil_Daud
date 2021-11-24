@@ -20,7 +20,7 @@
     <header class="navbar-style">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="navbar-brand" id="brand">
-                <img src="img/intelligence.png" style="filter: brightness(0) invert(1); size: 10em" alt="">
+                <img src="img/icon/intelligence.png" style="filter: brightness(0) invert(1); size: 10em" alt="">
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -78,10 +78,11 @@
                     </div>
                 </div>
                 
+                <!-- Subscribe -->
                 <div class="subhorrid col-md-8 offset-md-2">
                     <div class="container-fluid align-center">
                         <section>
-                            <h3>Ikuti Berita Promosi & Program Beasiswa <a href="#">Subscribe</a></h3>
+                            <h3 id="subscribe">Ikuti Berita Promosi & Program Beasiswa <a id="subscribe-button" href="#">Subscribe</a></h3>
                         </section>
                     </div>
                 </div>
@@ -90,37 +91,43 @@
                     <div class="col-xl-12 col-lg-7">
                         <div class="card shadow mb-4">
                             <div class="card-body">
-                                <h1>Mari Mulai Belajar</h1>
+                                <div class="col-md-4">
+                                    <h1>Mari Mulai Belajar</h1>
+                                </div>
                                 <ul class="list-group list-group-horizontal">
                                     <li class="horriditem">
                                         <div class="card">
-                                            <img class="card-img-top" src="..." alt="Card image cap">
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="horriditem">
                                         <div class="card">
-                                            <img class="card-img-top" src="..." alt="Card image cap">
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="horriditem">
                                         <div class="card">
-                                            <img class="card-img-top" src="..." alt="Card image cap">
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="horriditem">
                                         <div class="card">
-                                            <img class="card-img-top" src="..." alt="Card image cap">
                                             <div class="card-body">
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <img class="card-img-top menu-img" src="img/larges/larges (4).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
                                         </div>
                                     </li>

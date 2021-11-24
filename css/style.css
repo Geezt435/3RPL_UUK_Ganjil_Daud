@@ -5,13 +5,93 @@
 }
 
 #topic-img {
-    size: 1rem;
+    max-width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 2%;
+}
+
+#katalog-title {
+    margin: 3rem;
+}
+
+#subscribe {
+    margin: 3rem;
+}
+
+#subscribe-button {
+    margin-left: 4rem;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1%;
+    background-color:yellowgreen;
+    box-shadow: 4px 6px 3px rgb(82, 78, 78);
+}
+
+#subscribe-button:hover {
+    box-shadow: 2px 4px 3px rgb(82, 78, 78);
+}
+
+#link-hidden {
+    text-decoration: none;
+    color:slategrey;
+}
+
+#link-hidden:hover {
+    color:lightgray;
 }
 
 /* CLASS */
+
+.katalog-img {
+    max-width: 20%;
+    height: auto;
+}
+
+.submit-kursus {
+    margin-top: 1rem;
+}
+
+.content {
+	background: #e7e7e7;
+    outline: 3px solid black;
+	margin: auto;
+	margin-right: 78%;
+	margin-left: 5%;
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: monospace;
+	display: auto;
+	top: 0;
+}
+.sidebar {
+	background: #e7e7e7;
+    outline: 3px solid black;
+	margin: auto;
+	margin-right: 5%;
+	margin-left: 25%;
+	margin-top: -18.5%;
+	padding: 10px;
+	font-size: 20px;
+	font-family: monospace;
+	display: auto;
+	top: 0;
+}
+
 .navbar-style {
     margin-bottom: 1em;
     float: inline-end;
+}
+
+.menu-img {
+    max-width: 60%;
+    min-width: 50%;
+    height: auto;
+    margin: 2%;
 }
 
 .search {

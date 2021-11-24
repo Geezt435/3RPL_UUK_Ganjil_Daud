@@ -20,7 +20,7 @@
     <header class="navbar-style">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="navbar-brand" id="brand">
-                <img src="img/intelligence.png" style="filter: brightness(0) invert(1); size: 10em" alt="">
+                <img src="img/icon/intelligence.png" style="filter: brightness(0) invert(1); size: 10em" alt="">
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,36 +48,73 @@
         <div id="content">  
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xl-8 col-lg-7">
-
+                    <div class="col-xl-12 col-lg-7">
                         <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-                            </div>
                             <div class="card-body">
-                                <div class="chart-area">
-                                    <canvas id="myAreaChart"></canvas>
+                                <img id="topic-img" src="img/larges/larges (5).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Subscribe -->
+                <div class="subhorrid col-md-8 offset-md-2">
+                    <div class="container-fluid align-center">
+                        <section>
+                            <h3 id="subscribe">Ikuti Berita Promosi & Program Beasiswa <a id="subscribe-button" href="#">Subscribe</a></h3>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12 col-lg-7">
+                        <div class="card shadow mb-4">
+                            <div class="card-body">
+                                <div class="col-md-4">
+                                    <h1>Mari Mulai Belajar</h1>
                                 </div>
-                                <hr>
-                                Styling for the area chart can be found in the
-                                <code>/js/demo/chart-area-demo.js</code> file.
+                                <ul class="list-group list-group-horizontal">
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="horriditem">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (4).png" alt="Card image cap">
+                                                <hr>
+                                                <a href="#" id="link-hidden"><b>View Class</b></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-                            </div>
-                            <div class="card-body">
-                                <div class="chart-bar">
-                                    <canvas id="myBarChart"></canvas>
-                                </div>
-                                <hr>
-                                Styling for the bar chart can be found in the
-                                <code>/js/demo/chart-bar-demo.js</code> file.
-                            </div>
-                        </div>
-
+                        <!-- Favicon Distribution -->
                         <div class="card shadow mb-4">
                             <div class="card-body">
                                 <div>Icons made by 
