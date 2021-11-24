@@ -1,0 +1,15 @@
+/* ID */
+#brand {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* CLASS */
+.navbar-style {
+    margin-bottom: 1em;
+    float: inline-end;
+}
+
+.search {
+    min-width: 40rem;
+}
