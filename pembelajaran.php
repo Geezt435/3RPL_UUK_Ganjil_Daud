@@ -51,33 +51,22 @@
                     <div class="col-xl-12 col-lg-7">
                         <div class="card shadow mb-4">
                             <div class="card-body">
-                                <img id="topic-img" src="img/larges/larges (5).png" alt="">
+                                <img id="profile-img" src="img/icon/raise-your-hand-to-ask.png" alt="" align="left">
+                                <div style="margin: 3em;">
+                                    <h2>My Profile</h2>
+                                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas minus cum rem, repudiandae, aut adipisci nemo ullam eaque voluptatibus veritatis delectus dicta non soluta consectetur veniam ex accusamus distinctio animi.</h5>
+                                    <button style="margin-top: 2em;" type="submit" class="btn btn-primary">Edit Profile</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <!-- Subscribe -->
-                <div class="subhorrid col-md-8 offset-md-2">
-                    <div class="container-fluid align-center">
-                        <section>
-                            <h3 id="subscribe">Ikuti Berita Promosi & Program Beasiswa <a id="subscribe-button" href="#">Subscribe</a></h3>
-                        </section>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-12 col-lg-7">
-                        <div class="card shadow mb-4">
+                        <div class="card shadow mb-6">
                             <div class="card-body">
-                                <div class="col-md-4">
-                                    <h1>Mari Mulai Belajar</h1>
-                                </div>
+                                <h1 style="text-align: center;">Pembelajaran Saya</h1>
                                 <ul class="list-group list-group-horizontal">
                                     <li class="horriditem">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (1).png" alt="Card image cap">
                                                 <hr>
                                                 <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
@@ -86,7 +75,7 @@
                                     <li class="horriditem">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (1).png" alt="Card image cap">
                                                 <hr>
                                                 <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
@@ -95,32 +84,13 @@
                                     <li class="horriditem">
                                         <div class="card">
                                             <div class="card-body">
-                                                <img class="card-img-top menu-img" src="img/larges/larges (3).png" alt="Card image cap">
-                                                <hr>
-                                                <a href="#" id="link-hidden"><b>View Class</b></a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="horriditem">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img class="card-img-top menu-img" src="img/larges/larges (4).png" alt="Card image cap">
+                                                <img class="card-img-top menu-img" src="img/larges/larges (1).png" alt="Card image cap">
                                                 <hr>
                                                 <a href="#" id="link-hidden"><b>View Class</b></a>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
-                        </div>
-
-                        <!-- Favicon Distribution -->
-                        <div class="card shadow mb-4">
-                            <div class="card-body">
-                                <div>Icons made by 
-                                    <a href="https://www.freepik.com" title="Freepik">Freepik</a> from 
-                                    <a href="https://www.flaticon.com/" title="Flaticon">Flaticon</a>
-                                </div>
                             </div>
                         </div>
                     </div>
